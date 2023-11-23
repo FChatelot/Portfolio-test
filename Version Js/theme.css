@@ -1,0 +1,24 @@
+:root{
+    
+    --text: #e7f3f1;
+    --background: #020303;
+    --primary-button: #d8c7bb;
+    --secondary-button: #ffffff;
+    --accent: #7ab391;
+    --part1:#191c19;
+
+    --text-light: #050505;
+    --background-light: #fafafa;
+    --primary-button-light: #8fb3ff;
+    --secondary-button-light: #ccdbff;
+    --accent-light: #E11E72;
+    --part1-light:#c6bace;
+}
+
+body.darktheme{
+    background: var(--background);
+}
+
+body.darktheme header a {
+    color:var(--text);
+}
